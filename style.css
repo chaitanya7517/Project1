@@ -1,0 +1,111 @@
+
+/* home section  */
+
+body{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 1rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#home {
+    text-align: center;
+}
+
+
+/* navbar  */
+.navbar{
+    background-color: #fff;
+    padding: 2% 17%;
+}
+
+#home .advertisement{
+    background-color: #FFE3E1;
+    padding: 5% 17%;
+}
+
+#home .advertisement p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.first-button{
+    color : white;
+    background-color: black;
+    padding:5px 12px;
+    margin-top: 10px;
+}
+
+.first-button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* second-page  */
+
+
+
+#features .profile-photo{
+    width: 100%;
+}
+
+#features .about-me{
+    padding: 5% 5% 5% 17%;
+}
+
+.about-me p{
+    padding: 2% 0%;
+    font-size: 0.8rem;
+}
+
+@media (max-width:1080px){
+    
+    .about-me.col-lg-6 {
+        padding: 5% 17%;
+    }
+    
+}
+
+#prising{
+    background-color: #F5EAEA;
+    padding: 5% 12%;
+}
+
+.card{
+    border-radius: 0px;
+    border:5px solid black;
+    margin: 3% 0px;
+}
+
+/* contact */
+#contact{
+    padding: 5% 15%;
+}
+
+#contact .col-lg-6{
+    padding: 5%;
+}
+
+#contact input,textarea{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#contact form p{
+    margin-bottom: 0px;
+}
